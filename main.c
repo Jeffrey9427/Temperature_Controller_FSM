@@ -202,7 +202,7 @@ void increasing_increase() {
     reset();
     printf("|    |\n");
     printf("          |     ---------        ---------     |\n");
-https://github.com/Jeffrey9427/Temperature_Controller_FSM.git    printf("           \\                                  /\n");
+    printf("           \\                                  /\n");
     printf("            ---------------------------------\n\n");
 }
 
