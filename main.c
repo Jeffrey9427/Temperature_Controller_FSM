@@ -490,9 +490,12 @@ int main(void){
         printf("Button [0 for Decrease Temperature // 1 for Increase Temperature]: ");
         scanf("%d", &i2);
 
+        printf("\033[2J");      // Clear screen 
+        printf("\033[1;1H");    // Move cursor to upper left
+
         if ((i1 == 0 || i1 == 1) && (i2 == 0 || i2 == 1)) {
             nextState(q1, q0, i1, i2, &Q1, &Q0);
-            printf("\nNext state: %d %d\n", Q1, Q0);
+            printf("\n\n\nNext state: %d %d\n", Q1, Q0);
 
             output(q1, q0, &o0, &o1);
             printf("Output: %d %d\n", o0, o1);

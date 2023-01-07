@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Temperature Controller with Finite State Machine
 
 This repository contains the implementation of a temperature controller utilizing the Finite State Machine concept written in C. 
@@ -82,6 +81,9 @@ The program will rerun and print the new temperature controller according to the
 <img src="./images/output4.png" width="500">
 
 <img src="./images/output5.png" width="500">
+=======
+# Please go to branch master to see all the completed files. 
+>>>>>>> e2f42ee6b10c5813179ced10eaba88e3ae1b9bd4
 =======
 # Please go to branch master to see all the completed files. 
 >>>>>>> e2f42ee6b10c5813179ced10eaba88e3ae1b9bd4
