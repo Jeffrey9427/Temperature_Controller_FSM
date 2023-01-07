@@ -202,7 +202,7 @@ void increasing_increase() {
     reset();
     printf("|    |\n");
     printf("          |     ---------        ---------     |\n");
-    printf("           \\                                  /\n");
+https://github.com/Jeffrey9427/Temperature_Controller_FSM.git    printf("           \\                                  /\n");
     printf("            ---------------------------------\n\n");
 }
 
@@ -461,7 +461,6 @@ void decreasing_increase() {
 int main(void){
     int q1=0, q0=0, i1=0, i2=0, Q1=0, Q0=0, o0 = 0, o1 = 0;
     while(true){
-        
         if ((o0 == 0) && (o1 == 0)) {
             printf("\n\n\n\n--------------------------------------------------------------");
             printf("\n\nCurrent state: %d %d (Cold)\n\n", o0, o1);
@@ -482,11 +481,10 @@ int main(void){
             printf("\n\nCurrent state: %d %d (Decreasing)\n\n", o0, o1);
             decreasing();
         }
-        
 
         i1 = 0;
         i2 = 0;
-
+    
         printf("Temperature [0 for Low (<40) // 1 for High (>40)]: ");
         scanf("%d", &i1);
         printf("Button [0 for Decrease Temperature // 1 for Increase Temperature]: ");
@@ -503,7 +501,6 @@ int main(void){
         } else {
             printf("Sorry, your input is invalid, try again.\n\n");
         }
-
 
 
         if ((o0 == 0) && (o1 == 0)) {
