@@ -491,6 +491,7 @@ int main(void){
         scanf("%d", &i2);
 
         printf("\033[2J");      // Clear the screen
+        fflush(stdout);
         printf("\033[1;1H");    // Move the cursor to upper left
 
         if ((i1 == 0 || i1 == 1) && (i2 == 0 || i2 == 1)) {
